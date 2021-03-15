@@ -1,0 +1,135 @@
+/* my style sheet 	text-align-last: justify;*/
+div#topNav {
+	display: block;
+	float: initial;
+	background-color: blue;
+	background-image: linear-gradient(to right,blue,lightgrey);
+	font-family: sans-serif;
+	font-size: 40;
+}
+div#topNav ul {
+	list-style-type: none;
+	text-align-last: left;
+}
+div#topNav li {
+	display: inline-block;
+	margin: 5px 10px 10px 20px;
+}
+div#topNav li a{
+	color: white; font-size: 18px;
+	list-style-type: none;
+	text-decoration: none;
+}
+div#topNav li#main a{margin-left: -50px;}
+div#topNav li a:hover {color: red;}
+div#topNav li#main a:link {color: white; font-size: 28px;} 
+div#topNav li#main a:hover {color: red;}
+span#leftInfo {
+	display: block;
+	background-color: blueviolet;
+	width: 150px;
+	height: 125px;
+	border: 1px solid black;
+}
+span#leftInfo h5 { font-size: 18px; color: whitesmoke; margin-top: 10px; margin-left: 5px}
+span#leftInfo pre { font-size: 15px; color: white; margin-top: -20px; text-align-last: left; margin-left: 5px;}
+span#leftInfo li {list-style-type: none; left: auto; padding: 3px; margin-left: -4px;}
+span#leftInfo li a {text-decoration: none; font-size: 15px; color: white; margin-top: -20px; margin-left: -35px;}
+span#leftInfo li a:hover {color: red;}
+span#leftGap {display: block; background-color: white; width: 150px; height: 10px;}
+span#skills {
+	display: inline-block;
+	position: relative;
+	background-color: blueviolet;
+	width: 150px;
+	height: 200px;
+	border: 1px solid black;
+}
+span#skills h5 {
+	display: inline-block;
+	position: absolute;
+	width: 150px;
+	height: 30px;
+	margin-top: 0px;
+	color: whitesmoke;
+	text-align-last: center;
+	background-color: magenta;
+}
+span#skillsinner {
+	display: block;
+	position: absolute;
+	padding: 0px;
+	width: 140px;
+	height: 160px;
+	margin-left: 5px;
+	margin-top: 35px;
+	color: blueviolet;
+	background-color: beige;
+	border-image: 
+}
+span#skillsinner ul {
+	list-style-type: none;
+	text-decoration: none;
+	margin: auto;
+}
+span#skillsinner ul li{
+	display: block;
+	float: left; height: 45px;
+	margin-left: -30px;
+	margin-top: -5px;
+}
+div#me {
+	display: block;
+	width: 500px;
+	margin-top: -500px;
+	margin-left: 180px;
+	border-bottom: 0.1em solid black;
+}
+div#me img {margin-top: -115px; margin-left: 600px;}
+div#Education {
+	display: block;
+	margin-left: 180px;
+}
+div#Hobbies {
+	display: block;
+	width: 200px;
+	height: 200px;
+	float: right;
+	margin-top: -310px;
+	background-color: lightgrey;
+}
+div#Hobbies h2 {
+	text-align-last: center;
+}
+div#Hobbies li {
+	display: block;
+	background: white;
+	list-style-type: none;
+	text-decoration: none;
+	width: 125px;
+	height: 35px;
+	text-align-last: center;
+	padding: auto;
+}
+div#Mov {
+	width: 200px;
+	height: 200px;
+	display: block;
+	float: right;
+	margin-top: -100px;
+	background-color: lightgrey;
+}
+div#Mov h2 {
+	text-align-last: center;
+}
+div#Mov li {
+	padding: auto;
+	display: block;
+	background: white;
+	list-style-type: none;
+	text-decoration: none;
+	width: 125px;
+	height: 20px;
+	text-align-last: center;
+	padding: auto;
+}
